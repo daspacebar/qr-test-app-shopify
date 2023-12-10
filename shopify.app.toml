@@ -2,7 +2,7 @@
 
 name = "qr-test-app"
 client_id = "03947ff038b673eff15c291efd170a29"
-application_url = "https://fitness-vocals-memory-brandon.trycloudflare.com"
+application_url = "https://quebec-prisoners-arts-dangerous.trycloudflare.com"
 embedded = true
 
 [access_scopes]
