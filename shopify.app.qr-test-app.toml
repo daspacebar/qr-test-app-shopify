@@ -2,7 +2,7 @@
 
 name = "qr-test-app"
 client_id = "1d091947ed212a61d22d53144a5f4859"
-application_url = "https://niket-store-app-daspacebar.vercel.app/"
+application_url = "https://fitness-vocals-memory-brandon.trycloudflare.com"
 embedded = true
 
 [access_scopes]
