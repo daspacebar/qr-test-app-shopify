@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "qr-test-app"
+client_id = "03947ff038b673eff15c291efd170a29"
+application_url = "https://quebec-prisoners-arts-dangerous.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://quebec-prisoners-arts-dangerous.trycloudflare.com/auth/callback",
+  "https://quebec-prisoners-arts-dangerous.trycloudflare.com/auth/shopify/callback",
+  "https://quebec-prisoners-arts-dangerous.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "qr-app-test-store-niket.myshopify.com"

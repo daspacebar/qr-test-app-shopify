@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "qr-test-app"
+client_id = "1d091947ed212a61d22d53144a5f4859"
+application_url = "https://league-pierce-saskatchewan-reliable.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://league-pierce-saskatchewan-reliable.trycloudflare.com/auth/callback",
+  "https://league-pierce-saskatchewan-reliable.trycloudflare.com/auth/shopify/callback",
+  "https://league-pierce-saskatchewan-reliable.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "qr-app-test-store-niket.myshopify.com"
