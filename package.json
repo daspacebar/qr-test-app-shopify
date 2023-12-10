@@ -2,7 +2,7 @@
   "name": "niket-store-app",
   "private": true,
   "scripts": {
-    "build": "prisma generate && remix build",
+    "build": "remix build",
     "predev": "prisma generate && prisma migrate deploy",
     "dev": "shopify app dev",
     "config:link": "shopify app config link",
