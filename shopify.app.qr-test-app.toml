@@ -2,7 +2,7 @@
 
 name = "qr-test-app"
 client_id = "1d091947ed212a61d22d53144a5f4859"
-application_url = "https://barrel-unlikely-purchases-combining.trycloudflare.com"
+application_url = "https://fitness-vocals-memory-brandon.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://barrel-unlikely-purchases-combining.trycloudflare.com/auth/callback",
-  "https://barrel-unlikely-purchases-combining.trycloudflare.com/auth/shopify/callback",
-  "https://barrel-unlikely-purchases-combining.trycloudflare.com/api/auth/callback"
+  "https://fitness-vocals-memory-brandon.trycloudflare.com/auth/callback",
+  "https://fitness-vocals-memory-brandon.trycloudflare.com/auth/shopify/callback",
+  "https://fitness-vocals-memory-brandon.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
