@@ -27,7 +27,7 @@ export async function loader({ request }) {
 
 const EmptyQRCodeState = ({ onAction }) => (
   <EmptyState
-    heading="Create unique QR codes for your product"
+    heading="Create unique QR codes for your products"
     action={{
       content: "Create QR code",
       onAction,
