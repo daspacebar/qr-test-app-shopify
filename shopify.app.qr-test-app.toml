@@ -2,7 +2,7 @@
 
 name = "qr-test-app"
 client_id = "1d091947ed212a61d22d53144a5f4859"
-application_url = "https://begin-morning-arg-promptly.trycloudflare.com"
+application_url = "https://proof-running-sudan-controllers.trycloudflare.com/"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://begin-morning-arg-promptly.trycloudflare.com/auth/callback",
-  "https://begin-morning-arg-promptly.trycloudflare.com/auth/shopify/callback",
-  "https://begin-morning-arg-promptly.trycloudflare.com/api/auth/callback"
+  "https://proof-running-sudan-controllers.trycloudflare.com/auth/callback",
+  "https://proof-running-sudan-controllers.trycloudflare.com/auth/shopify/callback",
+  "https://proof-running-sudan-controllers.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
